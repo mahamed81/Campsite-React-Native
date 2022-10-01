@@ -51,7 +51,7 @@ const HomeScreen = () => {
         duration: 1500,
         useNativeDriver: true
     });
-
+    //    console.log(campsites.campsitesArray) 
     const featCampsite = campsites.campsitesArray.find((item) => item.featured);
     const featPromotion = promotions.promotionsArray.find(
         (item) => item.featured
